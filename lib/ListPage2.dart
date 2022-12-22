@@ -4,7 +4,7 @@ class ListPage2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(leading: Icon(Icons.favorite),title: Text("My Fav Contacts"),),
+      appBar: AppBar(leading: Icon(Icons.favorite_outline),title: Text("My Fav Contacts"),),
       body: ListView(
         children:  [
           Card(
@@ -13,7 +13,7 @@ class ListPage2 extends StatelessWidget {
             child: ListTile(
               title: Text("Shijil"),
               subtitle: Text("9999999999"),
-              leading: Image(image: NetworkImage("https://cdn-icons-png.flaticon.com/128/8089/8089114.png"),),
+              leading: Image(image: NetworkImage("https://cdn-icons-png.flaticon.com/128/8727/8727604.png"),),
               trailing: Wrap(
                 children: const [
                   Icon(Icons.message_outlined),
@@ -26,7 +26,7 @@ class ListPage2 extends StatelessWidget {
           ListTile(
             title: Text("Abhinav"),
             subtitle: Text("8888888888"),
-            leading: Image(image: NetworkImage("https://cdn-icons-png.flaticon.com/128/8089/8089114.png"),),
+            leading: Image(image: NetworkImage("https://cdn-icons-png.flaticon.com/128/8727/8727604.png"),),
             trailing: Wrap(
               children: const [
                 Icon(Icons.message_outlined),
@@ -38,7 +38,7 @@ class ListPage2 extends StatelessWidget {
           ListTile(
             title: Text("Jithu"),
             subtitle: Text("7777777777"),
-            leading: Image(image: NetworkImage("https://cdn-icons-png.flaticon.com/128/8089/8089114.png"),),
+            leading: Image(image: NetworkImage("https://cdn-icons-png.flaticon.com/128/8727/8727604.png"),),
             trailing: Wrap(
               children: const [
                 Icon(Icons.message_outlined),
@@ -50,7 +50,7 @@ class ListPage2 extends StatelessWidget {
           ListTile(
             title: Text("Aleena"),
             subtitle: Text("6666666666"),
-            leading: Image(image: NetworkImage("https://cdn-icons-png.flaticon.com/128/8089/8089114.png"),),
+            leading: Image(image: NetworkImage("https://cdn-icons-png.flaticon.com/128/8727/8727604.png"),),
             trailing: Wrap(
               children: const [
                 Icon(Icons.message_outlined),
@@ -62,7 +62,7 @@ class ListPage2 extends StatelessWidget {
           ListTile(
             title: Text("Hiba"),
             subtitle: Text("5555555555"),
-            leading: Image(image: NetworkImage("https://cdn-icons-png.flaticon.com/128/8089/8089114.png"),),
+            leading: Image(image: NetworkImage("https://cdn-icons-png.flaticon.com/128/8727/8727604.png"),),
             trailing: Wrap(
               children: const [
                 Icon(Icons.message_outlined),
