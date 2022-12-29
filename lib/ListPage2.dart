@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
-
+void main()
+{
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: ListPage2(),
+  ));
+}
 class ListPage2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -60,7 +66,7 @@ class ListPage2 extends StatelessWidget {
             ),
           ),
           ListTile(
-            title: Text("Hiba"),
+            title: Text("Lechu"),
             subtitle: Text("5555555555"),
             leading: Image(image: NetworkImage("https://cdn-icons-png.flaticon.com/128/8727/8727604.png"),),
             trailing: Wrap(
