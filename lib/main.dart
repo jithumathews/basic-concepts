@@ -5,13 +5,13 @@ import 'package:my1project/validation.dart';
 
 import 'home.dart';
 
-void main() {
-  runApp(MaterialApp(
-      theme: ThemeData(primarySwatch:Colors.cyan),
-      debugShowCheckedModeBanner: false,
-      home: SplashScreen()));
-
-}
+// void main() {
+//   runApp(MaterialApp(
+//       theme: ThemeData(primarySwatch:Colors.cyan),
+//       debugShowCheckedModeBanner: false,
+//       home: SplashScreen()));
+//
+// }
 
 class SplashScreen extends StatefulWidget {
   @override
