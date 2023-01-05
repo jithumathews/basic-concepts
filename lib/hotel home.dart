@@ -106,7 +106,7 @@ class HotelHomePage extends StatelessWidget {
               children: <Widget>[
                 Stack(
                   children: <Widget>[
-                    Image.asset(room['image']),
+                    Image.asset('assets/images/hotel1.jpg'),
                     Positioned(
                       right: 10,
                       top: 10,
