@@ -17,7 +17,7 @@ class Botsht extends StatelessWidget {
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
+                children:const [
                   ListTile(
                     leading: Icon(Icons.train),
                     title: Text("Train"),
